@@ -1,0 +1,14 @@
+body{
+    background-color: red;
+}
+
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+p{
+    color:white;
+}
