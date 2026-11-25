@@ -46,6 +46,9 @@ function RandomUser() {
 
   return (
     <>
+
+      
+
       <div className='buttonContainer'>
         <button onClick={generatePerson}>Generate Random Person</button>
       </div>
@@ -63,6 +66,7 @@ function RandomUser() {
 
         </div>
       )}
+      
       
     </>
   )

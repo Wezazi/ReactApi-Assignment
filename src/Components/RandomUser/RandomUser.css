@@ -2,7 +2,6 @@ body{
     background-color: red;
 }
 
-
 .buttonContainer{
     display: flex;
     justify-content: center;
@@ -11,4 +10,13 @@ body{
 
 p{
     color:white;
+}
+
+
+.personContainer{
+    display: flex;
+    justify-content: flex-start; /*This property seem to stop working once i set flex-direction: column */
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
 }
